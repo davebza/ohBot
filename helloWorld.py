@@ -16,7 +16,7 @@ ohbot.wait(2)
 
 # Move head back to the centre and say "Hello World"
 ohbot.move(1, 5, 1)
-ohbot.say(" Did you have homework Christine?.")
+ohbot.say("")
 
 #Slowly increase the brightness of the eyes.
 
