@@ -3,8 +3,9 @@ from ohbotMac import ohbot
 ohbot.reset()
 ohbot.wait(2)
 
-ohbot.setVoice("Fiona")
-ohbot.say("Hello Maggie and Frederik")
+ohbot.setVoice("Samantha")
+
+
 
 ohbot.wait(1)
 

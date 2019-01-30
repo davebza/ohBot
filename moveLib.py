@@ -16,10 +16,10 @@ def chooseBigOrSmall():
     theChoice = random.randint(1, 100)
     if theChoice < 33:
         theMove = randomMotionBig()
-        print("big")
+        # print("big")
     else:
         theMove = randomMotionSmall()
-        print("small")
+        # print("small")
 
     return theMove
 
@@ -94,11 +94,11 @@ listOfMotors = [NOD, NECK, EYEBALLS, EYELIDS, TOPLIP, BOTTOMLIP, EYESOCKETS]
 # shakeHead()
 
 
-listOfMoves = [i for i in range(random.randint(50, 200))]
-print(len(listOfMoves))
-
-for move in listOfMoves:
-    chooseBigOrSmall()
+listOfMoves = [i for i in range(random.randint(50, 100))]
+# print(len(listOfMoves))
+#
+# for move in listOfMoves:
+#     chooseBigOrSmall()
 
 # ohbot.setVoice("Alex")
 # ohbot.say("Mish, You will be next.")
