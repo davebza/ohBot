@@ -52,9 +52,13 @@ ob.reset()
 ob.wait(1)
 
 ob.say("Have a good shower" + showerFirst)
-
-ob.reset()
+ob.say("Remember to leave some hot water for the next person!")
 ob.wait(1)
+
+ob.say("My work here is done.")
+ob.say("I am going back to sleep")
+ob.say("Call me if you need me.")
+ob.say("Goodnight!")
 
 endAndRest()
 ob.wait(1)
